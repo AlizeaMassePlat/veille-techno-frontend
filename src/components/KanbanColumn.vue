@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-3 col-sm-4 mb-3" @dragover.prevent @drop="dropTask">
+  <div class="col-md-3 col-sm-4 mb-3">
     <div class="form-group d-flex mb-4">
       <button
         class="btn btn-primary"

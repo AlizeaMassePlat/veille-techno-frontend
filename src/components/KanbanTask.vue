@@ -1,9 +1,6 @@
 <template>
   <div
-    class="list-group-item d-flex justify-content-between align-items-center"
-    draggable="true"
-    @dragstart="dragStart"
-    @dragend="dragEnd"
+    class="list-group-item d-flex justify-content-between align-items-center" 
   >
     <template v-if="!editMode">
       <div class="card mb-3">
@@ -51,8 +48,6 @@ const props = defineProps({
 const emit = defineEmits([
   "remove-task",
   "update-task",
-  "drag-start",
-  "drag-end",
 ]);
 
 const editMode = ref(false);
