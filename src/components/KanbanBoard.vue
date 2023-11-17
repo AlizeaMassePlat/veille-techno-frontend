@@ -42,7 +42,6 @@ const addKanbanColumn = () => {
 
 const addTaskToColumn = (columnName, newTask) => {
   kanbanStore.addTask(columnName, newTask);
-  // console.log("nom de col:umn dans kanbanBoard", columnName);
 };
 
 const updateTaskInColumn = (columnTitle, taskIndex, updatedTask) => {

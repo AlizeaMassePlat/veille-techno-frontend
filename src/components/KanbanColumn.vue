@@ -93,7 +93,7 @@ import KanbanTask from "./KanbanTask.vue";
 import { useKanbanStore } from "../stores/kanbanStore";
 
 const props = defineProps(["title", "tasks"]);
-const emit = defineEmits(["add-task", "task-dropped"]);
+const emit = defineEmits(["add-task"]);
 
 const newTaskTitle = ref("");
 const newTaskDescription = ref("");
