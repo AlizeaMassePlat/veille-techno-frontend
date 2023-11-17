@@ -1,5 +1,5 @@
 # README pour le Projet Kanban
-
+![Apperçu de l'app](/tableauKanban.png)
 ## Description du Projet
 
 Ce projet est une application de tableau Kanban développée avec Vue.js et Pinia. Elle permet de créer et de gérer des colonnes de tâches, d'ajouter, de modifier, et de supprimer des tâches dans ces colonnes. L'interface utilisateur est conçue pour être simple et intuitive, offrant une expérience fluide pour la gestion des tâches.
